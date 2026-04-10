@@ -49,6 +49,14 @@ export const CataloguePage = () => {
 
       if (!response.ok) throw new Error("Erreur HTTP");
 
+      if (isLoading) {
+        return <p>Chargement des films...</p>;
+      }
+
+      if (error) {
+        return <p>Une erreur est survenue lors du chargement.</p>;
+      }
+
       return response.json();
     },
   });
