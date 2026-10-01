@@ -1,17 +1,25 @@
-# Movie Tracker — CC2
+# Notice de conservation
+
+Exercice pédagogique React de contrôle continu, issu du fork de [stephane-ruhlmann/esgi-AL-react-cc2](https://github.com/stephane-ruhlmann/esgi-AL-react-cc2).
+Le projet est terminé et aucune maintenance n'est prévue.
+Le dépôt est conservé pour son historique pédagogique. Le README et le sujet d'origine sont conservés ci-dessous.
+
+## README d'origine
+
+# Movie Tracker - CC2
 
 ## Lancement
 
 Deux terminaux nécessaires :
 
-**Terminal 1 — API :**
+**Terminal 1 - API :**
 
 ```bash
 pnpm install
 pnpm api
 ```
 
-**Terminal 2 — Application :**
+**Terminal 2 - Application :**
 
 ```bash
 pnpm dev
